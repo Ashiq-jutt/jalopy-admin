@@ -1,0 +1,32 @@
+/* Autocomplete.css */
+.pac-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000; 
+    position: absolute !important;
+  font-family: 'Poppins', sans-serif; 
+  box-shadow: none !important; 
+  border:solid #EEEE 1px;  
+  top: 100%; /* Position it below the input field */
+  left: 0;
+  }
+  
+  .pac-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .pac-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .pac-item-query {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .pac-matched {
+    font-weight: bold;
+    color: rgb(162, 94, 223);
+  }
+  

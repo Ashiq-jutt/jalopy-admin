@@ -1,0 +1,53 @@
+#terms{
+    /* Change background color when checked */
+    background-color: #5cb85c; /* Change this to the desired color */
+  }
+  .p-paginator .p-highlight{ 
+    background-color: rgb(162 94 223) !important; 
+    color: white !important; 
+    
+  }
+  .p-paginator-element{ 
+    font-family: "Inter" !important;
+    background-color: #F5F5F5 !important; 
+    margin-left: 4px;
+    
+   color: rgb(162 94 223) !important;
+  }  
+  .p-paginator-current{  
+  
+     color: #B5B7C0 !important; 
+     font-family: "Inter" !important ; 
+      position: absolute; 
+      left:0px;  
+       
+      margin-top: -70px; 
+      text-align: center; 
+      width: 100%;
+  }
+  .p-paginator-first{ 
+    display: none !important;
+  }
+  .p-paginator-last{ 
+    display: none !important;
+  } 
+  .p-paginator-bottom{ 
+    margin-top: 40px;  
+    margin-bottom: 30px;
+    padding: 0px !important;
+  } 
+  @media (min-width:600px){ 
+    .p-paginator-bottom{ 
+         
+       justify-content: end;  
+       margin-right: 100px;
+      padding: 0px !important;
+    }   
+    .p-paginator-current{  
+       display: block; 
+       margin-top: 40px; 
+      text-align: left; 
+    width: auto;
+    }
+     
+  }

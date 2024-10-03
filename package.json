@@ -1,0 +1,74 @@
+{
+  "name": "Jalopay Pro ",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "start:production": "npm run build && npm run start:prod",
+    "build": " react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "lint:fix": "eslint './src/**/*.{js,jsx}' --fix"
+  },
+  "dependencies": {
+    "@canvasjs/react-charts": "^1.0.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "@react-google-maps/api": "^2.19.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/forms": "^0.5.6",
+    "axios": "^1.6.8",
+    "chart.js": "^4.1.1",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "emoji-picker-react": "^4.11.1",
+    "formik": "^2.4.6",
+    "framer-motion": "^10.16.2",
+    "html2pdf.js": "^0.10.1",
+    "moment": "^2.30.1",
+    "npm": "^10.5.0",
+    "outlet": "^0.1.5",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.5.1",
+    "react": "^18.2.0",
+    "react-activity": "^2.1.3",
+    "react-chartjs-2": "^5.2.0",
+    "react-d3-speedometer": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.1",
+    "react-hook-form": "^7.45.4",
+    "react-pdf-charts": "^0.2.1",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.15",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.29",
+    "postcss-nesting": "^12.0.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

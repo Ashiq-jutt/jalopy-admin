@@ -1,0 +1,165 @@
+/* Tailwind Configuration Setup (Should appear only once) */
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css'; 
+@import 'primeicons/primeicons.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.google-visualization-tooltip {
+  /* Change to your desired background color */
+  color: rgba(162,94,223,1) !important;           /* Change to your desired text color */
+ /* Optional: Add a border */ 
+  font-family: "Inter",sans-serif !important; 
+  letter-spacing: 0.5px !important;
+  border: none !important; 
+  border-radius: 10px !important;
+  padding-top: 0px !important;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider{ 
+  background-color: #A25EDF;
+}
+.p-inputswitch-slider{ 
+  background-color: #F1E9FE !important;
+}
+.p-highlight .p-inputswitch-slider::before{ 
+  background-color: #A25EDF !important; 
+ 
+}     
+p-inputswitch-slider::after{ 
+  background-color: red !important; 
+ 
+} 
+.all-customers::-webkit-scrollbar,.changepassword::-webkit-scrollbar{ 
+  width:0px;
+}
+/* Custom Text Styling */ 
+
+.custom-text {
+  color: #024873;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
+/* Define your custom class for scrollbar */
+/* Only apply these styles in WebKit-based browsers (e.g., Safari) */
+/* This won't work in all browsers */
+.custom-scrollbar {
+  ::-webkit-scrollbar {
+    width: 0px; 
+    border-radius: 10px;
+  }
+
+  /* Background of the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #022859;
+  }
+
+  /* Styling of the scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background: #022859;
+    border-radius: 5px;
+  }
+
+  /* Styling of the scrollbar handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}  
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0; 
+
+  box-shadow: none;  
+  
+  font-family: "Inter" !important;
+}    
+.p-dropdown:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none; 
+  font-family: "Inter" !important;
+}
+.mainappbar .p-dropdown .p-dropdown-panel{ 
+  background-color: #F2F2F2 !important; 
+  border-radius: 20px !important;
+}
+.p-dropdown-panel{ 
+  box-shadow: none;  
+  border: solid #EEEEEE 1px; 
+
+  font-family: "Inter" !important; 
+  
+  color: rgb(162, 94, 223);  
+}      
+
+.p-dropdown,.p-dropdown span{  
+  font-family: "Inter" !important;
+  color: rgb(162, 94, 223);   
+   font-size: 15px; 
+    
+}  
+.p-dropdown-trigger{ 
+  color: rgb(162, 94, 223);  
+}
+.p-dropdown-item{ 
+  color: rgb(162, 94, 223);   
+  font-size: 15px; 
+} 
+.p-calendar {
+  font-family: 'Inter', sans-serif;
+}
+ 
+.jalopayuserdropdown .p-dropdown{ 
+background-color: rgb(162, 94, 223); 
+color: white;
+}
+.jalopayuserdropdown .p-dropdown .p-inputtext,.jalopayuserdropdown .p-dropdown .p-dropdown-trigger{ 
+  color: white;
+}
+.p-datepicker {
+  font-family: 'Inter', sans-serif;
+}
+.add-car-comp .p-dropdown-item{ 
+  color:rgba(0,0,0,.5) !important;
+}
+.p-datepicker-header {
+  font-family: 'Inter', sans-serif;
+}
+
+.p-datepicker-title {
+  font-family: 'Inter', sans-serif;
+}
+
+.p-datepicker-table {
+  font-family: 'Inter', sans-serif;
+}
+
+.p-datepicker-today, .p-datepicker-day {
+  font-family: 'Inter', sans-serif;
+}
+.p-button:enabled:focus {
+  box-shadow: none;
+}
+
+
+
+
+*::-webkit-scrollbar{ 
+   width:0px;
+} 
+.dropdownhere{ 
+  
+  color: black !important;
+}  
+.dropdownhere span{ 
+  color: rgba(0,0,0,.5) !important;
+} 
+.dropdownhere .p-dropdown .p-dropdown-panel  .p-dropdown-item  .p-dropdown-item-label{ 
+  color: rgba(0,0,0,.5) !important;
+}
+.dropdownhere  .p-dropdown-trigger{ 
+  color: rgba(0,0,0,.5) !important;
+}

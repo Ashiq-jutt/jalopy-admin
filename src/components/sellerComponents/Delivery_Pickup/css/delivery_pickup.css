@@ -1,0 +1,8 @@
+.blocktable .table-auto td,
+.blocktable .table-auto th { 
+    border-bottom:solid#A767E0 1px ;      
+    border-top:solid#A767E0 1px ;  
+}
+.blocktable  th{ 
+    display: none !important;
+}

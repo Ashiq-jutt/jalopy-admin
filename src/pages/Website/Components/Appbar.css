@@ -1,0 +1,7 @@
+.mainappbar .p-inputtext,.mainappbar .p-dropdown-trigger{ 
+    color:#F1E9FE !important;
+}   
+.mainappbar .p-dropdown-panel{ 
+    background-color: #F2F2F2 !important; 
+    border-radius: 20px !important;
+}
